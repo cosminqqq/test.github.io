@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+body {
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	overflow: hidden;
+	background: #363534;
+	max-height: 140px;
+}
+
+.header-box {
+	margin: 20px 0 0 20px;
+}
+
+.logo-wrapper {
+	display: inline-block;
+    width: 40%;
+    max-width: 400px;
+}
+
+.logo-wrapper:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#header-logo {
+	float: left;
+	width: 100px;
+	margin-left: 20px;
+}
+
+.h1-header{
+	padding-left: 70px;
+	color: #363534;
+	letter-spacing: 1.5px;
+	font-family: 'Comfortaa', cursive; 
+}
+
+.form-container {
+	display: inline-block;
+	background: #fff;
+	width: 49%;
+	position: relative;
+	border: 4px solid #363534;
+}
+
+.form-container form input[type=text] {
+	height: 36px;
+	width: 89%;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+}
+
+.form-container form input[type=submit] {
+	 background-image: url("search-test.png");
+	 height: 36px;
+	 width: 8%;
+	 right: 2px;
+	 cursor: pointer;
+	 position: absolute;
+	 background-color: transparent;
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 background-position: center;
+	 border: none;
+}
+
+.shopping-cart {
+    background-image: url("shopping-cart.png");
+    height: 10vw;
+    width: 7vw;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-top: -2.2%;
+    margin-right: 2%;
+	filter: invert(10);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.menu-wrapper {
+	margin-left: 30%;
+	top: -40px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-wrapper ul { 
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-wrapper ul li {
+	padding: 10px;
+}
+
+.menu-wrapper ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+}
+
+.menu-wrapper ul li a:hover {
+	border-bottom: 3px solid #fff;
+	transition: 250ms;
+}
+
+
+@media screen and (max-width: 800px) {
+	
+}
